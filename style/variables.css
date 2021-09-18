@@ -1,0 +1,34 @@
+/* variables */
+:root{
+    /* border-radius */
+    --round: 3px;
+    --clickable: 6px;
+
+    /* spacing */
+    --margin: .3rem;
+    --padding: .4rem;
+
+    /* font-sizes */
+    --smalltext: 0.9em;
+    --text: 1em;
+    --bigtext: 1.2em;
+}
+
+/* colors */
+:root{
+    --text-color: black;
+    --bg: rgb(234, 234, 255);
+    --card-bg: rgb(249, 249, 249);
+    --layer-bg: white;
+    --link: blue;
+    --link-hover: indigo;
+    --link-bg: #e5e5e5;
+    --option-bg: white;
+
+    /* shadows */
+    --shadow: rgba(0,0,0,0.3);
+    --layer: rgba(0,0,0,0.1);
+    /* highlights */
+    --lighten: rgba(255, 255, 255, 0.24);
+    --whiten: rgba(255, 255, 255, 0.51);
+}

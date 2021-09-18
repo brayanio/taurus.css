@@ -1,0 +1,154 @@
+/* utils */
+
+.hidden{
+  display: none!important;
+}
+
+.padding{
+  padding: var(--padding);
+}
+
+.margin{
+  margin: var(--margin);
+}
+
+/* card */
+.card{
+  padding: var(--padding);
+  font-size: var(--text);
+  background: var(--card-bg);
+}
+
+.layer{
+  margin: var(--margin);
+  padding: var(--padding);
+  font-size: var(--text);
+  box-shadow: 0 3px 5px var(--layer);
+  border-radius: var(--round);
+  background: var(--layer-bg);
+}
+
+/* headers */
+.header{
+  font-size: var(--bigtext);
+  font-weight: bold;
+  margin: var(--margin);
+  display: block;
+}
+.title{
+  font-size: var(--bigtext);
+  display: block;
+}
+
+/* buttons, links, clickables, form items, etc */
+.link{
+  color: var(--link);
+  background: transparent;
+  cursor: pointer;
+  padding: var(--padding);
+  margin: var(--margin);
+  border-radius: var(--clickable);
+  box-shadow: 0 3px 5px transparent;
+  font-size: var(--text);
+  transition: .3s;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.link:hover{
+  color: var(--link-hover);
+  background: var(--link-bg);
+  box-shadow: 0 3px 5px var(--shadow);
+  transition: .3s;
+  border: 2px solid var(--layer);
+}
+
+.button{
+  background: var(--link-bg);
+  cursor: pointer;
+  padding: var(--padding);
+  margin: var(--margin);
+  color: var(--text-color);
+  border-radius: var(--clickable);
+  box-shadow: 0 3px 5px transparent;
+  font-size: var(--text);
+  transition: .3s;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.button:hover{
+  box-shadow: 0 3px 5px var(--shadow);
+  border: 2px solid var(--layer);
+}
+
+.input{
+  background: var(--link-bg);
+  padding: var(--padding);
+  margin: var(--margin);
+  color: var(--text-color);
+  border-radius: var(--clickable);
+  box-shadow: 0 3px 5px transparent;
+  font-size: var(--text);
+  transition: .3s;
+  border: 2px solid transparent;
+}
+.input:hover{
+  box-shadow: 0 3px 5px var(--shadow);
+  border: 2px solid var(--layer);
+}
+
+.select{
+  cursor: pointer;
+  background: var(--link-bg);
+  padding: var(--padding);
+  margin: var(--margin);
+  color: var(--text-color);
+  border-radius: var(--clickable);
+  box-shadow: 0 3px 5px transparent;
+  font-size: var(--text);
+  transition: .3s;
+  border: none;
+}
+.select:hover{
+  box-shadow: 0 3px 5px var(--shadow);
+}
+
+.option{
+  padding: var(--padding);
+  margin: var(--margin);
+  color: var(--text-color);
+  transition: .3s;
+  background: var(--option-bg);
+}
+.option:hover{
+  background: var(--link-bg);
+}
+
+.label{
+  display: block;
+  margin: var(--margin);
+}
+
+.flat-input{
+  border: 2px solid transparent;
+  border-bottom: 2px solid var(--link-bg);
+  padding: var(--padding);
+  font-size: 1em;
+  box-shadow: 0 3px 5px transparent;
+  border-radius: 0;
+  transition: .3s;
+}
+
+.flat-input:focus, .flat-input:hover{
+  box-shadow: 0 3px 5px var(--layer);
+  border-radius: var(--clickable);
+  outline: none;
+  border: 2px solid var(--link-bg);
+}
+
+.flat-input::placeholder{
+  transition: .3s;
+}
+
+.flat-input:focus::placeholder, .flat-input:hover::placeholder{
+  color: var(--text-color);
+}

@@ -1,0 +1,46 @@
+.modal-bg{
+    position: fixed;
+    z-index: 2;
+    background: var(--shadow);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    animation: modal-bg-open .3s;
+}
+
+@keyframes modal-bg-open{
+    0%{
+        background: rgba(0,0,0,0);
+    }
+    100%{
+        background: var(--shadow);
+    }
+}
+
+.modal{
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    background: var(--card-bg);
+    box-shadow: 0 3px 5px var(--shadow);
+    border-radius: var(--round);
+    padding: var(--padding);
+    animation: modal-open .3s;
+    overflow-y: auto;
+}
+
+@keyframes modal-open{
+    0%{
+        margin: 25%;
+        width: 50%; 
+        height: 50%;
+    }
+    100%{
+        margin: 5%;
+        width: 90%;
+        height: 90%;
+    }
+}

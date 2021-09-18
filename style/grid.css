@@ -1,0 +1,56 @@
+.flex{
+  display: flex;
+}
+
+.block{
+  display: block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.inline-flex{
+  display: inline-flex;
+}
+
+.v-center{
+  align-items: center;
+}
+
+.center{
+  justify-content: center;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.left{
+  justify-self: left;
+}
+.right{
+  justify-self: right;
+}
+.t-left{
+  text-align: left;
+}
+.t-right{
+  text-align: right;
+}
+
+.space{
+  justify-content: space-between;
+}
+
+.col{
+  width: 100%;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+}

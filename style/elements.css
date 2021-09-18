@@ -1,0 +1,33 @@
+a{
+  color: var(--link);
+  cursor: pointer;
+  margin: var(--margin);
+  font-size: var(--text);
+}
+a:hover{
+  color: var(--link-hover);
+}
+
+button{
+  background: var(--link-bg);
+  cursor: pointer;
+  margin: var(--margin);
+  font-size: var(--text);
+  border-radius: var(--clickable);
+  border: 1px solid var(--shadow);
+}
+
+/* Helpers */
+small{
+  font-size: var(--smalltext);
+}
+
+strong{
+  font-size: var(--bigtext);
+}
+
+hr{
+  border: 2px solid var(--layer);
+  margin: var(--margin);
+  border-radius: var(--clickable);
+}
