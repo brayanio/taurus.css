@@ -14,7 +14,7 @@
   display: inline-flex;
 }
 
-.v-center{
+.v-center, .v-align{
   align-items: center;
 }
 
@@ -39,7 +39,7 @@
   text-align: right;
 }
 
-.space{
+.space, .space-between{
   justify-content: space-between;
 }
 
