@@ -27,10 +27,10 @@
 }
 
 .left{
-  justify-self: left;
+  justify-content: left;
 }
 .right{
-  justify-self: right;
+  justify-content: right;
 }
 .t-left{
   text-align: left;
