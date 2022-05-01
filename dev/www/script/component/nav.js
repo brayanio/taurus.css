@@ -1,6 +1,4 @@
-import i0 from './i0.js'
-export default
-i0.obj('nav',
+'nav',
 `
     <nav class="nav">
         <div>
@@ -40,4 +38,4 @@ i0.obj('nav',
         }
     }
 
-})
+}

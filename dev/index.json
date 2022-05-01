@@ -1,0 +1,17 @@
+{
+    "package": "new-i0-project",
+    "port":	"4200",
+    "node_packages": {},
+    
+    "title": "Taurus CSS",
+    "target": "http://localhost:4200",
+    "routes": {
+        "": "home",
+        "#": "home",
+        "#home": "home",
+        "#support": "support"
+    },
+    "styles": [
+        "https://tauruscss.blbbrayan.repl.co/export.css"
+    ]
+}
